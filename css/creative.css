@@ -1,10 +1,10 @@
 @font-face {
     font-family: '1UP';
-    src: url('/_new/fonts/Glyphter.eot');
-    src: url('/_new/fonts/Glyphter.eot?#iefix') format('embedded-opentype'),
-         url('/_new/fonts/Glyphter.woff') format('woff'),
-         url('/_new/fonts/Glyphter.ttf') format('truetype'),
-         url('/_new/fonts/Glyphter.svg#1up') format('svg');
+    src: url('/_new/fonts/1up.eot');
+    src: url('/_new/fonts/1up.eot?#iefix') format('embedded-opentype'),
+         url('/_new/fonts/1up.woff') format('woff'),
+         url('/_new/fonts/1up.ttf') format('truetype'),
+         url('/_new/fonts/1up.svg#1up') format('svg');
     font-weight: normal;
     font-style: normal;
 }
