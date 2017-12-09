@@ -151,7 +151,7 @@ body {
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: black;
+    background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #f0f0f0;
@@ -173,7 +173,7 @@ body {
   min-height: 100%;
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-color: #121212;
+  background-color: #000000;
 /*   background: url('../img/1up_glitch.gif'); */
   background-repeat: no-repeat;
   background-position: center center;
@@ -501,4 +501,15 @@ canvas {
   max-width: 100%;
   /*max-height: 100vh;*/
   /*transform: translate(-5% 10%);*/
+}
+
+.footer a {
+  color: #000000 !important;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.footer a:hover {
+  color: #000000 !important;
 }
