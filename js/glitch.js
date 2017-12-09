@@ -21,7 +21,7 @@
       this.textSize = Math.floor(this.width / 4);
 
       if (this.textSize > this.height) {
-        this.textSize = Math.floor(this.height/1.5); }
+        this.textSize = Math.floor(this.height/1); }
 
       this.font = '100 ' + this.textSize + 'px "1UP"';
       this.context.font = this.font;
@@ -125,7 +125,7 @@
     resize: function () {
       this.width = document.documentElement.offsetWidth;
       this.height = window.innerHeight;
-            this.height = document.documentElement.offsetHeight;
+            // this.height = document.documentElement.offsetHeight;
       if (this.canvas) {
         this.canvas.height = this.height;
         document.documentElement.offsetHeight;
@@ -134,7 +134,7 @@
         this.textSize = Math.floor(this.canvas.width / 4);
         // RE-sets text size based on window size
         if (this.textSize > this.height) {
-          this.textSize = Math.floor(this.canvas.height/1.5); }
+          this.textSize = Math.floor(this.canvas.height/1); }
           // tries to make text fit if window is very wide, but not very tall
         this.font = '100 ' + this.textSize + 'px "1UP"';
         this.context.font = this.font;
