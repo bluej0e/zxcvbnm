@@ -421,11 +421,18 @@ h4 {
 {
   font-weight: 400;
 }
+.lead {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.8em
+}
 .bg1 {
 background-color: #FFF;
 max-width: 100%;
-max-height: 380px;
+max-height: auto;
 }
+
+
 .bg2 {
 background-color: #000000;
 max-width: 100%;
@@ -459,6 +466,9 @@ max-width: 100%;
   font-family: 'Roboto Condensed', 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
 }
+.aboutus p {
+}
+
 
 /*
 .content::after {
