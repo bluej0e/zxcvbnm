@@ -271,6 +271,8 @@ header.masthead p {
     font-size: 22px;
   }
 }
+
+
 .text-primary {
   color: #000 !important;
 }
@@ -514,3 +516,4 @@ canvas {
 .footer a:hover {
   color: #000000 !important;
 }
+@media only screen and (max-width:767px) { #textscrambler { font-size:2.5em;} }
