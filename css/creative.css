@@ -14,7 +14,6 @@ html {
   height: 100%;
 }
 body {
-  background: url('/img/1up_bg.jpg') center center fixed;
   font-family: 'Roboto Condensed;', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
@@ -80,6 +79,8 @@ body {
 }
 .section-blank{
   height: 30vh;
+  background: url('../img/1up_bg.jpg') center center fixed;
+
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: black;
