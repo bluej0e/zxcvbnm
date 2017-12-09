@@ -470,7 +470,7 @@ max-width: 100%;
   animation: blink .5s infinite linear;
 }
 
-
+*/
 @keyframes blink {
   0% {
     opacity: 1;
