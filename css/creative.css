@@ -159,8 +159,8 @@ body {
   min-height: 100%;
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-color: #37474F;
-  background: url('../img/1up_glitch.gif');
+  background-color: #121212;
+/*   background: url('../img/1up_glitch.gif'); */
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
