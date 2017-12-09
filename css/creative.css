@@ -323,7 +323,7 @@ header.masthead p {
 /* Map */
 
 .map {
-  height: 100%;
+  /*height: 100%;*/
   max-width: 100%;
   padding-top: 0;
 }
