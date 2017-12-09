@@ -448,7 +448,7 @@ max-width: 100%;
   color: #757575;
 }
 
-/*
+
 .text {
   width: 100%;
   text-align: left;
@@ -467,7 +467,7 @@ max-width: 100%;
   width: 20px;
   background-color: #3498db;
   animation: blink .5s infinite linear;
-}*/
+}
 
 
 @keyframes blink {
