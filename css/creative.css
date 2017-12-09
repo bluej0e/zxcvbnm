@@ -14,6 +14,7 @@ html {
   height: 100%;
 }
 body {
+  background: url('/img/1up_bg.jpg') center center fixed;
   font-family: 'Roboto Condensed;', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
@@ -46,7 +47,6 @@ h6 {
   display: inline;
 }
 
-
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -77,6 +77,9 @@ img::-moz-selection {
 }
 body {
   -webkit-tap-highlight-color: #212529;
+}
+.section-blank{
+  height: 30vh;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: black;
