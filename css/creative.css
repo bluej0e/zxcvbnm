@@ -1,12 +1,12 @@
 @font-face {
-    font-family: '1UP';
-    src: url('../fonts/1up.eot');
-    src: url('../fonts/1up.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/1up.woff') format('woff'),
-         url('../fonts/1up.ttf') format('truetype'),
-         url('../fonts/1up.svg#1up') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: '1UP';
+  src: url('../fonts/1up.eot');
+  src: url('../fonts/1up.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/1up.woff') format('woff'),
+  url('../fonts/1up.ttf') format('truetype'),
+  url('../fonts/1up.svg#1up') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 body,
 html {
@@ -83,11 +83,11 @@ body {
 
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: black;
-    color:white;
+  background-color: black;
+  color:white;
 }
 .navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
 }
 #mainNav {
   background-color: #000;
@@ -174,7 +174,7 @@ body {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   background-color: #000000;
-/*   background: url('../img/1up_glitch.gif'); */
+  /*   background: url('../img/1up_glitch.gif'); */
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -324,6 +324,7 @@ header.masthead p {
 
 .map {
   /*height: 100%;*/
+  padding: 1rem 0;
   max-width: 100%;
   padding-top: 0;
 }
@@ -422,24 +423,24 @@ h4 {
   font-weight: 400;
 }
 .lead {
-    font-size: 1.2rem;
-    font-weight: 300;
-    line-height: 1.8em
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.8em
 }
 .bg1 {
-background-color: #FFF;
-max-width: 100%;
-max-height: auto;
+  background-color: #FFF;
+  max-width: 100%;
+  max-height: auto;
 }
 
 
 .bg2 {
-background-color: #000000;
-max-width: 100%;
+  background-color: #000000;
+  max-width: 100%;
 }
 .bg3 {
-background-color: #FFF;
-max-width: 100%;
+  background-color: #FFF;
+  max-width: 100%;
 }
 #textscrambler {
   max-width: 100%;
