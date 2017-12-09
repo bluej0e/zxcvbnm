@@ -323,7 +323,8 @@ header.masthead p {
 /* Map */
 
 .map {
-  height: 75%;
+  height: 100%;
+  max-width: 100%;
   padding-top: 0;
 }
 .map iframe {
