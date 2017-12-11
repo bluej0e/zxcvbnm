@@ -100,14 +100,14 @@
 
       this.context.font = this.font;
       this.context.fillStyle = "rgb(255,0,0)";
-      this.context.fillText(this.text, (x1 - 40), channelYPos);
+      this.context.fillText(this.text, x1 - (this.width*0.035), channelYPos);
 
       this.context.globalCompositeOperation = this.compOp;
 
       this.context.fillStyle = "rgb(0,255,0)";
-      this.context.fillText(this.text, (x2 - 40), channelYPos);
+      this.context.fillText(this.text, x2 - (this.width*0.035), channelYPos);
       this.context.fillStyle = "rgb(0,0,255)";
-      this.context.fillText(this.text, (x3 - 40), channelYPos);
+      this.context.fillText(this.text, x3 - (this.width*0.035), channelYPos);
     },
 
     renderScanline: function () {

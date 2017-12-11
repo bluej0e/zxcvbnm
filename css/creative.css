@@ -169,9 +169,9 @@ body {
     color: #FFF;
   }
 }
-.randbg {} header.masthead {
+header.masthead {
   min-height: 100%;
-  padding-top: 10rem;
+  /*padding-top: 10rem;*/
   padding-bottom: calc(10rem - 56px);
   background-color: #000000;
   /*   background: url('../img/1up_glitch.gif'); */
