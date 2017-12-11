@@ -21,7 +21,7 @@
       this.textSize = Math.floor(this.width / 4);
 
       if (this.textSize > this.height) {
-        this.textSize = Math.floor(this.height/1); }
+        this.textSize = Math.floor(this.height/1.5); }
 
       this.font = '100 ' + this.textSize + 'px "1UP"';
       this.context.font = this.font;
@@ -95,16 +95,19 @@
     },
 
     renderChannels: function (x1, x2, x3) {
+      const channelYPos = (this.height / 2) + (this.textSize / 2);
+
+
       this.context.font = this.font;
       this.context.fillStyle = "rgb(255,0,0)";
-      this.context.fillText(this.text, x1, this.height / 2);
+      this.context.fillText(this.text, (x1 - 40), channelYPos);
 
       this.context.globalCompositeOperation = this.compOp;
 
       this.context.fillStyle = "rgb(0,255,0)";
-      this.context.fillText(this.text, x2, this.height / 2);
+      this.context.fillText(this.text, (x2 - 40), channelYPos);
       this.context.fillStyle = "rgb(0,0,255)";
-      this.context.fillText(this.text, x3, this.height / 2);
+      this.context.fillText(this.text, (x3 - 40), channelYPos);
     },
 
     renderScanline: function () {
@@ -134,7 +137,8 @@
         this.textSize = Math.floor(this.canvas.width / 4);
         // RE-sets text size based on window size
         if (this.textSize > this.height) {
-          this.textSize = Math.floor(this.canvas.height/1); }
+          this.textSize = Math.floor(this.canvas.height/1.5);
+        }
           // tries to make text fit if window is very wide, but not very tall
         this.font = '100 ' + this.textSize + 'px "1UP"';
         this.context.font = this.font;
