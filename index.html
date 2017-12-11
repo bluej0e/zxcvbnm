@@ -65,11 +65,11 @@
 
 <!-- ¿Qué somos? -->
 <section id="about" class="bg1">
-   <div class="container">
-     <h2>¿Quienes somos?</h2>
-     <div class="row">
-       <p class="lead col-lg-10">Somos un equipo jóven de profesionales enamorados de lo que hacen que se unen para crear su propia agencia de marketing y diseño. Amamos lo que hacemos y queremos poder hacer que nuestros clientes sientan que hacemos con su empresa lo que haríamos con la nuestra. Siempre poniendo el corazón en todo lo que hacemos y aprendiendo cada día para ofrecer siempre las últimas tendencias.</p>
-   </div>
+ <div class="container">
+   <h2>¿Quienes somos?</h2>
+   <div class="row">
+     <p class="lead col-lg-10">Somos un equipo jóven de profesionales enamorados de lo que hacen que se unen para crear su propia agencia de marketing y diseño. Amamos lo que hacemos y queremos poder hacer que nuestros clientes sientan que hacemos con su empresa lo que haríamos con la nuestra. Siempre poniendo el corazón en todo lo que hacemos y aprendiendo cada día para ofrecer siempre las últimas tendencias.</p>
+ </div>
 </div>
 </section>
 
@@ -213,13 +213,11 @@
 <section class="section-blank"></section>
 
 <!-- Mapa -->
-
 <section id="contact" class="map">
-  <iframe src="https://snazzymaps.com/embed/34246" width="100%" height="500px" style="border:none;"></iframe>
+   <div id="map"></div>
 </section>
 
 <!-- Contacto -->
-
 <div class="container footer">
   <div class="row">
     <div class="col-lg-8 mx-auto text-center">
@@ -230,15 +228,15 @@
   </style>
   <title>1UP Logo</title>
   <g id="Layer_2">
-   <g id="Layer_1-2">
-     <g id="Layer_2-2">
-       <g id="Layer_1-2-2">
-         <rect x="308.9" y="57.4" class="downlogo" width="19.8" height="72.9"/>
-         <path class="downlogo" d="M345.9,0H35.7L0,28.8v57h20.3v151.5h76.1l7.2-26v-9l35.7,35.1h173.8l7.2-26.2v-11.4h65.7l7.2-25.9V38.3
-         L345.9,0z M92.2,26v173.8H39.4V85.8L39,48.3H20.3V27.2L39,12.1l0.3-0.3l0.4-0.3h52.5V26z M237.3,25v174.8h-86l-40-39.8V11.5
-         h52.8v142.4h19.8V11.5h53.4L237.3,25z M381.8,162.2h-72.9v37.5H256V11.5h85.8l40,32.3L381.8,162.2z"/>
-     </g>
- </g>
+     <g id="Layer_1-2">
+       <g id="Layer_2-2">
+         <g id="Layer_1-2-2">
+           <rect x="308.9" y="57.4" class="downlogo" width="19.8" height="72.9"/>
+           <path class="downlogo" d="M345.9,0H35.7L0,28.8v57h20.3v151.5h76.1l7.2-26v-9l35.7,35.1h173.8l7.2-26.2v-11.4h65.7l7.2-25.9V38.3
+           L345.9,0z M92.2,26v173.8H39.4V85.8L39,48.3H20.3V27.2L39,12.1l0.3-0.3l0.4-0.3h52.5V26z M237.3,25v174.8h-86l-40-39.8V11.5
+           h52.8v142.4h19.8V11.5h53.4L237.3,25z M381.8,162.2h-72.9v37.5H256V11.5h85.8l40,32.3L381.8,162.2z"/>
+       </g>
+   </g>
 </g>
 </g>
 </svg>
@@ -253,7 +251,7 @@
 </div>
 </div>
 <!-- Bootstrap core JavaScript -->
-<script>
+<!-- <script>
   function initMap() {
     var uluru = {lat: -25.363, lng: 131.044};
     var map = new google.maps.Map(document.getElementById('map'), {
@@ -266,18 +264,182 @@
   });
 
 }
+</script> -->
+<!-- Maps script -->
+<script>
+      function initMap() {
+        var styledMapType = new google.maps.StyledMapType(
+            [
+            {
+                "stylers": [
+                {
+                    "saturation": -100
+                },
+                {
+                    "gamma": 1
+                }
+                ]
+            },
+            {
+                "elementType": "labels.text.stroke",
+                "stylers": [
+                {
+                    "visibility": "off"
+                }
+                ]
+            },
+            {
+                "featureType": "administrative.land_parcel",
+                "elementType": "labels",
+                "stylers": [
+                {
+                    "visibility": "off"
+                }
+                ]
+            },
+            {
+                "featureType": "administrative.neighborhood",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                {
+                    "color": "#333333"
+                }
+                ]
+            },
+            {
+                "featureType": "poi",
+                "elementType": "labels.text",
+                "stylers": [
+                {
+                    "visibility": "off"
+                }
+                ]
+            },
+            {
+                "featureType": "poi.business",
+                "elementType": "labels.icon",
+                "stylers": [
+                {
+                    "visibility": "off"
+                }
+                ]
+            },
+            {
+                "featureType": "poi.business",
+                "elementType": "labels.text",
+                "stylers": [
+                {
+                    "visibility": "off"
+                }
+                ]
+            },
+            {
+                "featureType": "poi.place_of_worship",
+                "elementType": "labels.icon",
+                "stylers": [
+                {
+                    "visibility": "off"
+                }
+                ]
+            },
+            {
+                "featureType": "poi.place_of_worship",
+                "elementType": "labels.text",
+                "stylers": [
+                {
+                    "visibility": "off"
+                }
+                ]
+            },
+            {
+                "featureType": "road",
+                "elementType": "geometry",
+                "stylers": [
+                {
+                    "visibility": "simplified"
+                }
+                ]
+            },
+            {
+                "featureType": "road.local",
+                "elementType": "labels",
+                "stylers": [
+                {
+                    "visibility": "off"
+                }
+                ]
+            },
+            {
+                "featureType": "road.local",
+                "elementType": "labels.text",
+                "stylers": [
+                {
+                    "color": "#333333"
+                },
+                {
+                    "weight": 0.5
+                }
+                ]
+            },
+            {
+                "featureType": "transit.station",
+                "elementType": "labels.icon",
+                "stylers": [
+                {
+                    "saturation": 50
+                },
+                {
+                    "gamma": 1
+                }
+                ]
+            },
+            {
+                "featureType": "water",
+                "stylers": [
+                {
+                    "hue": "#50a5d1"
+                },
+                {
+                    "saturation": 50
+                },
+                {
+                    "visibility": "on"
+                }
+                ]
+            }
+            ],
+            {name: 'Styled Map'}
+            );
+
+        // Create a map object, and include the MapTypeId to add
+        // to the map type control.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -25.363, lng: 131.044}},
+          zoom: 12,
+          mapTypeControlOptions: {
+            mapTypeIds: ['styled_map']
+        }
+    });
+
+        //Associate the styled map with the MapTypeId and set it to display.
+        map.mapTypes.set('styled_map', styledMapType);
+        map.setMapTypeId('styled_map');
+    }
 </script>
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyAqUQ1iCUq40mTqmBKHRI8w4OCZawzj3v4&center=-34.913407504378746,-56.178303423278805&zoom=16&format=png&maptype=roadmap&style=saturation:-100%7Cgamma:1&style=element:labels.text.stroke%7Cvisibility:off&style=feature:administrative.land_parcel%7Celement:labels%7Cvisibility:off&style=feature:administrative.neighborhood%7Celement:labels.text.fill%7Ccolor:0x333333&style=feature:poi%7Celement:labels.text%7Cvisibility:off&style=feature:poi.business%7Celement:labels.icon%7Cvisibility:off&style=feature:poi.business%7Celement:labels.text%7Cvisibility:off&style=feature:poi.place_of_worship%7Celement:labels.icon%7Cvisibility:off&style=feature:poi.place_of_worship%7Celement:labels.text%7Cvisibility:off&style=feature:road%7Celement:geometry%7Cvisibility:simplified&style=feature:road.local%7Celement:labels%7Cvisibility:off&style=feature:road.local%7Celement:labels.text%7Ccolor:0x333333%7Cweight:0.5&style=feature:transit.station%7Celement:labels.icon%7Csaturation:50%7Cgamma:1&style=feature:water%7Chue:0x50a5d1%7Csaturation:50%7Cvisibility:on&size=480x360">
+</script>
+
+
 
 <!-- Plugin JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
 <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
 <!-- JS -->
-<script src="js/creative.min.js"></script>
-<script src="js/colors.js"></script>
+<script src="js/colors.js"></script> 
 <script src="js/custom_scripts.js"></script>
 <script src="js/glitch.js"></script>
 
