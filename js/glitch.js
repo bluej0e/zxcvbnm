@@ -99,14 +99,14 @@
 
 
       this.context.font = this.font;
-      this.context.fillStyle = "rgb(255,0,0)";
+      this.context.fillStyle = "rgb(255,35,200)";
       this.context.fillText(this.text, x1 - (this.width*0.035), channelYPos);
 
       this.context.globalCompositeOperation = this.compOp;
 
-      this.context.fillStyle = "rgb(0,255,0)";
+      this.context.fillStyle = "rgb(255,105,15)";
       this.context.fillText(this.text, x2 - (this.width*0.035), channelYPos);
-      this.context.fillStyle = "rgb(0,0,255)";
+      this.context.fillStyle = "rgb(255,15,10)";
       this.context.fillText(this.text, x3 - (this.width*0.035), channelYPos);
     },
 
