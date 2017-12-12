@@ -17,16 +17,13 @@ html {
   height: 100%;
 }
 body {
-  font-family: 'Roboto Condensed;', 'Helvetica Neue', Arial, sans-serif;
-      /*overflow:hidden;*/
-
 }
 ::-webkit-scrollbar { 
     display: none; 
 }
 hr {
   max-width: 100px;
-  border-width: 3px;
+  border-width: 2px;
   border-color: #ff0042;
 }
 hr.light {
@@ -505,14 +502,14 @@ h4 {
   clear: none;
   display: inline-block;
 }
-#hacemos h2::after{  content: "";
+/*#hacemos h2::after{  content: "";
   display: inline-block;
   height: 0.1em;
   width: 0.1em;
   background-color: #ff0042;
   transform: translate();
   margin: 0 2px;
-}
+}*/
 #hacemos p{
   color: #f0f0f0;
   font-size: 1.7rem;
@@ -520,19 +517,10 @@ h4 {
   line-height: 2.5rem
 }
 
-
-
 #clientes span{
 color: #ff0042;
 }
 #clientes{}
-#clientes{}
-#clientes{}
-#clientes{}
-
-
-
-
 
 
 
@@ -560,7 +548,6 @@ canvas {
   background-color: #121212;
   color: #f0f0f0;
   min-width: 100%;
-  color:#f0f0f0;
 }
 .footer a {
   -webkit-transition: all 0.2s;
@@ -568,18 +555,15 @@ canvas {
   transition: all 0.2s;
 }
 .fa{
-  color:#ff0042;
+  color:#f0f0f0;
 }
 .footer a:hover {
   color: #ff0042 !important;
 }
 @media only screen and (max-width:767px) { 
-  #textscrambler { 
+  #textscrambler , #about h2{ 
     font-size:2.5em;
   } 
-  #about h2{
-  font-size: 2.5em;
-}
   canvas {
     padding: 0px;
   }
