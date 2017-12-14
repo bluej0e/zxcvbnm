@@ -12,10 +12,10 @@
 
 	<!-- Custom fonts for this template -->
 	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Lato|Merriweather|Open+Sans|Roboto|Roboto+Condensed" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Roboto+Condensed" rel="stylesheet">
 
 	<!-- Plugin CSS -->
-	<link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+	<!-- <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet"> -->
 
 	<!-- Custom styles for this template -->
 	<link href="css/creative.css" rel="stylesheet">
@@ -99,7 +99,7 @@
 
 	<section id="hacemos">
 		<div class="container">
-			<h2 class="col-4">hacemos</h2>
+			<h2>hacemos</h2>
 			<!-- <hr> -->
 			<div id="textscrambler"></div>
 			<div class="row">
@@ -114,32 +114,35 @@
 	<!-- Clientes -->
 
 	<section id="clientes" class="py-5">
-		<div class="container">
+		<div class="container-fluid">
 			<h2>Clientes <span>&</span> Trabajos</h2>
 			<hr>
 			<div class="row">
-				<div class="col-3">
+				<div class="col-6 col-sm-3">
 					<img class="img-fluid d-block mx-auto" src="img/logos/logos1.png" alt="Comparti">
 				</div>
-				<div class="col-3">
+				<div class="col-6 col-sm-3">
 					<img class="img-fluid d-block mx-auto" src="img/logos/logos2.png" alt="HelloNets">
 				</div>
-				<div class="col-3">
+                  <div class="clearfix hidden-sm-up"></div>
+				<div class="col-6 col-sm-3">
 					<img class="img-fluid d-block mx-auto" src="img/logos/logos3.png" alt="SimpleJobs">
 				</div>
-				<div class="col-3">
+				<div class="col-6 col-sm-3">
 					<img class="img-fluid d-block mx-auto" src="img/logos/logos4.png" alt="MRNL Marketing">
 				</div>
-				<div class="col-3">
+                  <div class="clearfix hidden-sm-up"></div>
+				<div class="col-6 col-sm-3">
 					<img class="img-fluid d-block mx-auto" src="img/logos/logos5.png" alt="El Casino Gratis">
 				</div>
-				<div class="col-3">
+				<div class="col-6 col-sm-3">
 					<img class="img-fluid d-block mx-auto" src="img/logos/logos6.png" alt="Muerteviedeo">
 				</div>
-				<div class="col-3">
+                  <div class="clearfix hidden-sm-up"></div>
+				<div class="col-6 col-sm-3">
 					<img class="img-fluid d-block mx-auto" src="img/logos/logos7.png" alt="Bet-eSport">
 				</div>
-				<div class="col-3">
+				<div class="col-6 col-sm-3">
 					<img class="img-fluid d-block mx-auto" src="img/logos/logos8.png" alt="WODA">
 				</div>
 			</div>
@@ -160,7 +163,6 @@
 						<img class="img-fluid" src="img/portfolio/ecg2.jpg" alt="El Casino Gratis">
 						<div class="portfolio-box-caption">
 							<div class="portfolio-box-caption-content">
-								<img src="img/portfolio/ecgL.png" alt="El Casino Gratis">
 								<div class="project-name">
 									El Casino Gratis
 								</div>
@@ -173,7 +175,6 @@
 						<img class="img-fluid" src="img/portfolio/hn2.jpg" alt="HelloNets">
 						<div class="portfolio-box-caption">
 							<div class="portfolio-box-caption-content">
-								<img src="img/portfolio/hnL.png" alt="HelloNets">
 								<div class="project-name">
 									HelloNets
 								</div>
@@ -186,7 +187,6 @@
 						<img class="img-fluid" src="img/portfolio/ct2.jpg" alt="Comparti">
 						<div class="portfolio-box-caption">
 							<div class="portfolio-box-caption-content">
-								<img src="img/portfolio/ctL.png" alt="Comparti">
 								<div class="project-name">
 									Compartí
 								</div>
@@ -199,7 +199,6 @@
 						<img class="img-fluid" src="img/portfolio/bet2.jpg" alt="Bet-eSport">
 						<div class="portfolio-box-caption">
 							<div class="portfolio-box-caption-content">
-								<img src="img/portfolio/betL.png" alt="Bet-eSport">
 								<div class="project-name">
 									Bet-eSport
 								</div>
@@ -214,244 +213,7 @@
 	<!-- Mapa -->
 	<style>#map{height: 50vh; width: 100%;}</style>
 	<div id="map"></div>
-	<script>
-		function initMap() {
-        // Styles a map in night mode.
-        var map = new google.maps.Map(document.getElementById('map'), {
-        	center: {lat: -34.9124189, lng: -56.1786068},
-        	zoom: 16,
-        	styles: [
-        	{
-        		"elementType": "geometry",
-        		"stylers": [
-        		{
-        			"color": "#232323"
-        		}
-        		]
-        	},
-        	{
-        		"elementType": "labels.icon",
-        		"stylers": [
-        		{
-        			"visibility": "off"
-        		}
-        		]
-        	},
-        	{
-        		"elementType": "labels.text.fill",
-        		"stylers": [
-        		{
-        			"color": "#757575"
-        		}
-        		]
-        	},
-        	{
-        		"elementType": "labels.text.stroke",
-        		"stylers": [
-        		{
-        			"color": "#212121"
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "administrative",
-        		"elementType": "geometry",
-        		"stylers": [
-        		{
-        			"color": "#757575"
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "administrative.country",
-        		"elementType": "labels.text.fill",
-        		"stylers": [
-        		{
-        			"color": "#9e9e9e"
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "administrative.land_parcel",
-        		"stylers": [
-        		{
-        			"visibility": "off"
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "administrative.locality",
-        		"elementType": "labels.text.fill",
-        		"stylers": [
-        		{
-        			"color": "#bdbdbd"
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "poi",
-        		"elementType": "labels.text.fill",
-        		"stylers": [
-        		{
-        			"color": "#757575"
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "poi.business",
-        		"stylers": [
-        		{
-        			"visibility": "off"
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "poi.park",
-        		"elementType": "geometry",
-        		"stylers": [
-        		{
-        			"color": "#181818"
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "poi.park",
-        		"elementType": "labels.text",
-        		"stylers": [
-        		{
-        			"visibility": "off"
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "poi.park",
-        		"elementType": "labels.text.fill",
-        		"stylers": [
-        		{
-        			"color": "#616161"
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "poi.park",
-        		"elementType": "labels.text.stroke",
-        		"stylers": [
-        		{
-        			"color": "#1b1b1b"
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "road",
-        		"elementType": "geometry.fill",
-        		"stylers": [
-        		{
-        			"color": "#2c2c2c"
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "road",
-        		"elementType": "labels.text.fill",
-        		"stylers": [
-        		{
-        			"color": "#8a8a8a"
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "road.arterial",
-        		"elementType": "geometry",
-        		"stylers": [
-        		{
-        			"color": "#ff0042"
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "road.arterial",
-        		"elementType": "labels.text",
-        		"stylers": [
-        		{
-        			"color": "#ffffff"
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "road.arterial",
-        		"elementType": "labels.text.stroke",
-        		"stylers": [
-        		{
-        			"color": "#ffffff"
-        		},
-        		{
-        			"visibility": "on"
-        		},
-        		{
-        			"weight": 1
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "road.highway",
-        		"elementType": "geometry",
-        		"stylers": [
-        		{
-        			"color": "#3c3c3c"
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "road.highway.controlled_access",
-        		"elementType": "geometry",
-        		"stylers": [
-        		{
-        			"color": "#4e4e4e"
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "road.local",
-        		"elementType": "labels.text.fill",
-        		"stylers": [
-        		{
-        			"color": "#616161"
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "transit",
-        		"elementType": "labels.text.fill",
-        		"stylers": [
-        		{
-        			"color": "#757575"
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "water",
-        		"elementType": "geometry",
-        		"stylers": [
-        		{
-        			"color": "#121212"
-        		}
-        		]
-        	},
-        	{
-        		"featureType": "water",
-        		"elementType": "labels.text.fill",
-        		"stylers": [
-        		{
-        			"color": "#3d3d3d"
-        		}
-        		]
-        	}
-        	]
-        });
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqUQ1iCUq40mTqmBKHRI8w4OCZawzj3v4&query=sinergia+cowork+montevideo&callback=initMap" async defer></script>
-
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqUQ1iCUq40mTqmBKHRI8w4OCZawzj3v4&query=1up+gonzalo+ramirez&callback=initMap" async defer></script>
 
 <!-- Footer -->
 <div class="container footer">
@@ -486,12 +248,12 @@
 <!-- Plugin JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-<script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<!-- <script src="vendor/jquery-easing/jquery.easing.min.js"></script> -->
+<!-- <script src="vendor/scrollreveal/scrollreveal.min.js"></script> -->
+<!-- <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script> -->
 
 <!-- JS -->
-<script src="js/colors.js"></script>
+<!-- <script src="js/colors.js"></script> -->
 <script src="js/custom_scripts.js"></script>
 <script src="js/glitch.js"></script>
 
