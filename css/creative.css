@@ -496,6 +496,7 @@ body {
   	text-align: center;
   	background-color: #121212;
   	max-width: 100%;
+		color: #F0F0F0;
   }
 
   #clientes h2, #hacemos h2{
@@ -558,7 +559,7 @@ body {
   	-moz-transition: all 0.2s;
   	transition: all 0.2s;
   }
-  .fa{
+  .fa {
   	color:#f0f0f0;
   }
   .footer a:hover {
