@@ -18,8 +18,8 @@ html {
 }
 body {
 }
-::-webkit-scrollbar { 
-	display: none; 
+::-webkit-scrollbar {
+	display: none;
 }
 hr {
 	max-width: 100px;
@@ -48,7 +48,10 @@ h5 {
 h6 {
 	display: inline;
 }
-
+h3 {
+	color: #f0f0f0;
+	font-size: 2em;
+}
 .text-faded {
 	color: rgba(255, 255, 255, 0.7);
 }
@@ -188,7 +191,7 @@ body {
   	/*padding-top: 10rem;*/
   	padding-bottom: calc(10rem - 56px);
   	background-color: #000000;
-  	background: url('../img/bg2.jpg'); 
+  	background: url('../img/bg2.jpg');
 
   	background-repeat: no-repeat;
   	background-position: center center;
@@ -488,11 +491,13 @@ body {
   	transform: translate(1px, 1px);
   	/*animation: blink .5s infinite linear;*/
   }
+
   #hacemos, #clientes{
   	text-align: center;
   	background-color: #121212;
   	max-width: 100%;
   }
+
   #clientes h2, #hacemos h2{
   	color: #f0f0f0;
   	font-size: 3em;
@@ -510,9 +515,10 @@ body {
   }*/
   #hacemos p{
   	color: #f0f0f0;
-  	font-size: 1.7rem;
-  	font-weight: 200;
-  	line-height: 2.5rem
+  	font-size: 1.2rem;
+  	font-weight: normal;
+  	line-height: 1.5rem;
+		text-align:justify;
   }
 
   #clientes span{
@@ -558,10 +564,10 @@ body {
   .footer a:hover {
   	color: #ff0042 !important;
   }
-  @media only screen and (max-width:767px) { 
-  	#textscrambler , #about h2{ 
+  @media only screen and (max-width:767px) {
+  	#textscrambler , #about h2{
   		font-size:2.5em;
-  	} 
+  	}
   	#about p, #clients p, #hacemos p {
   		font-size: 1.2em;
   		line-height: 1.6em;
