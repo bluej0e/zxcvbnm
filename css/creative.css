@@ -496,11 +496,13 @@ body {
   	text-align: center;
   	background-color: #121212;
   	max-width: 100%;
-		color: #F0F0F0;
-    background: url('img/blackback.png') center center;
+    color: #F0F0F0;
   }
 
+#hacemos{
+      background: url('../img/pinkback.jpg') center center;
 
+}
   #clientes h2, #hacemos h2{
   	color: #f0f0f0;
   	font-size: 3em;
@@ -521,15 +523,13 @@ body {
   	font-size: 1.2rem;
   	font-weight: normal;
   	line-height: 1.5rem;
-		text-align: center;
+    text-align: center;
   }
 
   #clientes span{
   	color: #ff0042;
   }
   #clientes{}
-
-
 
   @keyframes blink {
   	0% {
@@ -554,7 +554,10 @@ body {
   .footer{
   	background-color: #121212;
   	color: #f0f0f0;
-  	min-width: 100%;
+  	min-width: 100vw;
+    min-height: 200px;
+    background: url('../img/footer.jpg') center bottom no-repeat;
+    background-size: cover;
   }
   .footer a {
   	-webkit-transition: all 0.2s;
@@ -586,4 +589,7 @@ body {
       	background-size: 150% auto;
 
       }
-  }
+    }
+    .fa-8x{
+      margin-bottom: 30px;
+    }
