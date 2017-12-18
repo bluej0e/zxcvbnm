@@ -482,7 +482,7 @@ body {
   	font-size: 4em;
   	text-transform: uppercase;
   }
-  #hacemos p::after, #about p::after {
+  #about p::after {
   	content: "";
   	display: inline-block;
   	height: 3px;
@@ -519,7 +519,7 @@ body {
   	font-size: 1.2rem;
   	font-weight: normal;
   	line-height: 1.5rem;
-		text-align:justify;
+		text-align: center;
   }
 
   #clientes span{
