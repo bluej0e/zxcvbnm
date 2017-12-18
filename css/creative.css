@@ -497,7 +497,9 @@ body {
   	background-color: #121212;
   	max-width: 100%;
 		color: #F0F0F0;
+    background: url('img/blackback.png') center center;
   }
+
 
   #clientes h2, #hacemos h2{
   	color: #f0f0f0;
