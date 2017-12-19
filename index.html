@@ -29,12 +29,9 @@
 	<!-- Custom fonts for this template -->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Roboto+Condensed" rel="stylesheet">
-
-	<!-- Plugin CSS -->
-	<!-- <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet"> -->
-
-	<!-- Custom styles for this template -->
 	<link href="css/creative.css" rel="stylesheet">
+
+
 	<!-- Google Tag Manager -->
 	<script>
 		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -280,7 +277,8 @@
 
 	<!-- MAP -->
 	<script>
-		function initMap() {
+		function initMap() {}
+		$(() => {
         // Styles a map in night mode.
         var uluru = {lat: -34.9124189, lng: -56.1786068};
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -522,7 +520,7 @@ var marker = new google.maps.Marker({
 	map: map
 });
 
-}
+})
 </script>
 </body>
 </html>
