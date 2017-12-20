@@ -272,10 +272,7 @@ header.masthead p {
 }
 .downlogo1{
 margin: 0 auto;
-	height: 5em;
-	min-width: 20vw
-	max-width: 40vw;
-	width: 30vw;
+	width: 150px;
 	margin-top: 3em;
 
 }
@@ -490,6 +487,6 @@ canvas {
 
 	}
 }
-.fa-8x{
+.fa-6x{
 	margin-bottom: 30px;
 }
