@@ -15,6 +15,7 @@ body,
 html {
 	width: 100%;
 	height: 100%;
+	background-color: #121212;
 }
 body {
 }
@@ -490,3 +491,104 @@ canvas {
 .fa-6x{
 	margin-bottom: 30px;
 }
+
+
+
+
+
+/*---------- GLITCH HOVER CSS -------- */
+
+.oneup{
+	  font-size: 10em;
+  font-family: '1UP';
+}
+
+.glitch {
+  margin: 0;
+  color: #fff;
+}
+.glitch:before, .glitch:after {
+  display: block;
+  content: attr(data-glitch);
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .8;
+}
+.glitch:after {
+  color: #00ffbb;
+  z-index: -2;
+}
+.glitch:before {
+  color: #ff0042;
+  z-index: -1;
+}
+.glitch:hover:before {
+  -webkit-animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 5;
+          animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 5;
+}
+.glitch:hover:after {
+  animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both 5;
+}
+
+@media only screen and (max-width: 400px) {
+  .glitch {
+    font-size: 3em;
+  }
+}
+@-webkit-keyframes glitch {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-5px, 5px);
+            transform: translate(-5px, 5px);
+  }
+  40% {
+    -webkit-transform: translate(-5px, -5px);
+            transform: translate(-5px, -5px);
+  }
+  60% {
+    -webkit-transform: translate(5px, 5px);
+            transform: translate(5px, 5px);
+  }
+  80% {
+    -webkit-transform: translate(5px, -5px);
+            transform: translate(5px, -5px);
+  }
+  to {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@keyframes glitch {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-5px, 5px);
+            transform: translate(-5px, 5px);
+  }
+  40% {
+    -webkit-transform: translate(-5px, -5px);
+            transform: translate(-5px, -5px);
+  }
+  60% {
+    -webkit-transform: translate(5px, 5px);
+            transform: translate(5px, 5px);
+  }
+  80% {
+    -webkit-transform: translate(5px, -5px);
+            transform: translate(5px, -5px);
+  }
+  to {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
