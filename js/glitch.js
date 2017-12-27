@@ -95,11 +95,13 @@
       },
 
       renderChannels: function (x1, x2, x3) {
+        const channelYPos = (this.height / 2) + (this.textSize / 2);
+
         var red = "rgb(255, 0, 66)";
         var orange = "rgb(255, 123, 0)";
         var pink = "rgb(251, 0, 255)";
         var cyane = "rgb(0, 255, 187)";
-        const channelYPos = (this.height / 2) + (this.textSize / 2);
+
         this.context.font = this.font;
         this.context.fillStyle = cyane;
         this.context.fillText(this.text, x1 - (this.width*0.035), channelYPos);
