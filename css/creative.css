@@ -480,13 +480,10 @@ canvas {
 			line-height: 1.6em;
 		}
 		canvas {
-			/*padding: 0px;*/
 			transform: translate(0, -10vh);
 		}
-
 		.sb1, .sb2, .sb3{
-			background-size: 150% auto;
-
+			/*background-size: 150% auto;*/
 		}
 	}
 	.fa-6x{
@@ -494,112 +491,7 @@ canvas {
 	}
 
 
-
-
-
 	/*---------- GLITCH HOVER CSS -------- */
-
-/*.oneup{
-	font-size: 10em;
-	font-family: '1UP';
-	cursor: default;
-	}*/
-
-/*
-.glitch {
-
-  text-decoration: none;
-  /*position: absolute;* /
-  margin: 0;
-  color: #fff;
-}
-.glitch:before, .glitch:after {
-  display: block;
-  content: attr(data-glitch);
-  text-transform: uppercase;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: .8;
-}
-.glitch:after {
-  color: #00ffbb;
-  z-index: -2;
-}
-.glitch:before {
-  color: #ff0042;
-  z-index: -1;
-}
-.glitch:hover:before {
-  -webkit-animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 10;
-          animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 10;
-}
-.glitch:hover:after {
-  animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both 10;
-}
-
-@-webkit-keyframes glitch {
-  0% {
-    -webkit-transform: translate(0);
-            transform: translate(0);
-  }
-  20% {
-    -webkit-transform: translate(-5px, 1px);
-            transform: translate(-5px, 1px);
-  }
-  40% {
-    -webkit-transform: translate(-5px, -1px);
-            transform: translate(-5px, -1px);
-  }
-  60% {
-    -webkit-transform: translate(5px, 1px);
-            transform: translate(5px, 1px);
-  }
-  80% {
-    -webkit-transform: translate(5px, -1px);
-            transform: translate(5px, -1px);
-  }
-  to {
-    -webkit-transform: translate(0);
-            transform: translate(0);
-  }
-}
-
-@keyframes glitch {
-  0% {
-    -webkit-transform: translate(0);
-            transform: translate(0);
-  }
-  20% {
-    -webkit-transform: translate(-5px, 1px);
-            transform: translate(-5px, 1px);
-  }
-  40% {
-    -webkit-transform: translate(-5px, -1px);
-            transform: translate(-5px, -1px);
-  }
-  60% {
-    -webkit-transform: translate(5px, 1px);
-            transform: translate(5px, 1px);
-  }
-  80% {
-    -webkit-transform: translate(5px, -1px);
-            transform: translate(5px, -1px);
-  }
-  to {
-    -webkit-transform: translate(0);
-            transform: translate(0);
-  }
-}
-*/
-
-
-
-
-/*
-  Inspired in https://avicoder.me/
-  */
-
   .oneup{
   	font-size: 10em;
   	font-family: '1UP';
