@@ -397,6 +397,7 @@ h4 {
 	display: inline-block;
 	height: 3px;
 	width: 3px;
+	border-radius: 50% ;
 	background-color: #ff0042;
 	transform: translate(1px, 1px);
 }
