@@ -1,31 +1,31 @@
-  var $win = $(window),
-  w = 0,
-  h = 0,
-  rgb = [],
-  getWidth = function() {
-    w = $win.width();
-    h = $win.height();
-  };
-  $win.resize(getWidth).mousemove(function(e) {
+  // var $win = $(window),
+  // w = 0,
+  // h = 0,
+  // rgb = [],
+  // getWidth = function() {
+  //   w = $win.width();
+  //   h = $win.height();
+  // };
+  // $win.resize(getWidth).mousemove(function(e) {
 
-   rgb = [
-   Math.round(e.pageX/w * 255),
-   Math.round(e.pageY/h * 255),
-   Math.round(((e.pageX + e.pageY) / 2) / ((h+w)/2) / 255)
-        // 150`
-        ];
+  //  rgb = [
+  //  Math.round(e.pageX/w * 255),
+  //  Math.round(e.pageY/h * 255),
+  //  Math.round(((e.pageX + e.pageY) / 2) / ((h+w)/2) / 255)
+  //       // 150`
+  //       ];
 
 
-        rgb = [
-        Math.round(e.pageX/w * 255),
-        Math.round(e.pageY/h * 60)+40,
-        Math.round((e.pageX + e.pageY) / (h+w) * 10)+ 45
-        // 150`
-        ];
-        $(".downlogo").css('fill','hsl('+rgb[0]+','+rgb[1]+'%, '+rgb[2]+'%)');
-        $(".faro").css('fill','hsl('+rgb[0]+','+rgb[1]+'%, '+rgb[2]+'%)');
-        // $(".st0").css('fill','rgb('+rgb.join(',')+')');
-      }).resize();
+  //       rgb = [
+  //       Math.round(e.pageX/w * 255),
+  //       Math.round(e.pageY/h * 60)+40,
+  //       Math.round((e.pageX + e.pageY) / (h+w) * 10)+ 45
+  //       // 150`
+  //       ];
+  //       $(".downlogo").css('fill','hsl('+rgb[0]+','+rgb[1]+'%, '+rgb[2]+'%)');
+  //       $(".faro").css('fill','hsl('+rgb[0]+','+rgb[1]+'%, '+rgb[2]+'%)');
+  //       // $(".st0").css('fill','rgb('+rgb.join(',')+')');
+  //     }).resize();
 
       // ————————————————————— Random BAckground Generator ————————————————————— //
     //  $(function() {

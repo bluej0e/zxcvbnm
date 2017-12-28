@@ -485,6 +485,7 @@ canvas {
 		}
 		.sb1, .sb2, .sb3{
 			/*background-size: 150% auto;*/
+			background-attachment: scroll;
 		}
 	}
 	.fa-6x{
