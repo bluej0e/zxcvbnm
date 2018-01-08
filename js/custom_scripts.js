@@ -93,6 +93,7 @@ const phrases = [
 'SEO',
 'SEM',
 'MARKETING',
+'PERFORMANCE',
 'ANALYTICS',
 'GROWTH HACKING',
 'DESIGN',
