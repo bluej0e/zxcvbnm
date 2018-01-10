@@ -126,7 +126,9 @@ canvas{transform:translate(0, -10vh);}
 .sb1, .sb2, .sb3{background-attachment:scroll;}
 }
 .fa-6x{margin-bottom:30px;}
-.oneup{font-size:10em;font-family:'1UP';cursor:default;color:#f0f0f0;margin:0 auto;line-height:1em;animation:glitch 3s steps(100) infinite;}
+.oneup, .oneup_top{font-size:10em;font-family:'1UP';cursor:default;color:#f0f0f0;margin:0 auto;line-height:1em;animation:glitch 3s steps(100) infinite;}
+.oneup_top{font-size:3em;}
+.navbar{background-color:#121212;text-transform: uppercase;}
 @keyframes glitch{0%{text-shadow:3px 0 0 #fb00ff, -3px 0 0 #00ffbb;filter:blur(0);}
 1%{text-shadow:3px 0 0 #fb00ff, -3px 0 0 #00ffbb;filter:blur(0);}
 2%{text-shadow:3px 0 0 #fb00ff, -3px 0 0 #00ffbb;filter:blur(0);}
