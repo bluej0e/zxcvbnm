@@ -39,7 +39,7 @@
 }
 
 .nav-link{
-    padding: 1rem!important;
+  padding: 1rem!important;
 }
 .navbar-toggler{
   padding-left: 85vw;
@@ -50,17 +50,17 @@
   ********************************** */
 .small-logo-container {
   padding-top: 60px;
-  height: 60px;
+  height: 56px;
   position: absolute;
 }
 
 .small-logo {
   font-family: '1UP';
-    cursor: default;
-    color: #f0f0f0;
-    line-height: 1em;
-    animation: glitch 3s steps(100) infinite;
-    font-size: 3em;
-    padding-bottom: 2px;
+  cursor: default;
+  color: #f0f0f0;
+  line-height: 1em;
+  animation: glitch 3s steps(100) infinite;
+  font-size: 3em;
+  padding-bottom: 2px;
 }
 

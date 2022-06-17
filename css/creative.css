@@ -2,20 +2,18 @@
 url('../fonts/1up.woff') format('woff'),
 url('../fonts/1up.ttf') format('truetype'),
 url('../fonts/1up.svg#1up') format('svg');font-weight:normal;font-style:normal;}
-*{font-family:'Roboto', Helvetica, Arial, sans-serif;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+*{font-family:'Roboto', 'Roboto Condensed', Helvetica, Arial, sans-serif;}
 body,
 html{width:100%;height:100%;background-color:#121212;}
-body{}
+/*body{}*/
 ::-webkit-scrollbar{display:none;}
-hr{max-width:100px;border-width:2px;border-color:#ff0042;}
+hr{max-width:25%;min-width:100px;border-width:2px;border-color:#ff0042;}
 hr.light{border-color:#fff;}
 a{color:#f0f0f0 !important;-webkit-transition:all 0.2s;-moz-transition:all 0.2s;transition:all 0.2s;}
 a:hover{color:#f0f0f0 !important;}
-h1,
-h2,
-h3,
-h4,
-h5{}
+/*h1, h2, h3, h4, h5{} */
 h6{display:inline;}
 h3{color:#f0f0f0;font-size:2em;}
 .text-faded{color:rgba(255, 255, 255, 0.7);}
@@ -84,33 +82,22 @@ header.masthead h1{font-size:3rem;}
 40%{-webkit-transform:translateY(-30px);-moz-transform:translateY(-30px);-ms-transform:translateY(-30px);-o-transform:translateY(-30px);transform:translateY(-30px);}
 60%{-webkit-transform:translateY(-15px);-moz-transform:translateY(-15px);-ms-transform:translateY(-15px);-o-transform:translateY(-15px);transform:translateY(-15px);}
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.btn,
-.button-tabs .tab-title span{}
-h1,
-h2,
-h3,
-h4{letter-spacing:0 !important;margin-right:0 !important;}
-.italic{font-style:bolid;}
-{font-weight:400;}
+/*h1, h2, h3, h4, h5, h6, .btn, .button-tabs .tab-title span{} */
+h1,h2,h3,h4{letter-spacing:0 !important;margin-right:0 !important;}
+.italic{font-style:bolid; font-weight:400;}
 .lead{font-size:1.7rem;font-weight:200;line-height:2.5rem}
 .bg3{background-color:#FFF;max-width:100%;}
-#textscrambler{max-width:100%;justify-content:center;align-items:center;display:flex;font-weight:100;font-size:4em;color:#FAFAFA;font-family:'Roboto Condensed';}
+#textscrambler{max-width:100%;justify-content:center;align-items:center;display:flex;font-weight:100;font-size:4em;color:#FAFAFA;font-family:'Roboto Condensed',sans-serif;}
 .dud{color:#cf0237;}
 .text{width:100%;text-align:left;height:5em;font-size:22px;margin:auto;display:inline;color:#333;}
 #about, #clientes{background-color:#121212;color:#f0f0f0;text-align:center;max-width:100%;max-height:auto;}
 #about p::after{content:"";display:inline-block;height:3px;width:3px;border-radius:50%;background-color:#ff0042;transform:translate(1px, 1px);}
 #hacemos, #clientes{text-align:center;background-color:#121212;max-width:100%;color:#F0F0F0;}
-#hacemos{background:url('../img/pinkback_p.jpg') repeat top right;}
+#hacemos{background:url('../img/pinkback_p.jpg') repeat top right;background-attachment: fixed;}
 #clientes h2, #hacemos h2, #about h2{color:#f0f0f0;font-size:3em;text-transform:uppercase;clear:none;display:inline-block;}
 #hacemos p{color:#f0f0f0;font-size:1.2rem;font-weight:normal;line-height:1.5rem;text-align:center;}
 #clientes span{color:#ff0042;}
-#clientes{}
+/*#clientes{}*/
 @keyframes blink{0%{opacity:1;}
 99%{opacity:0;}
 100%{opacity:1;}
